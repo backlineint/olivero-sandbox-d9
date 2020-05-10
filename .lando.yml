@@ -1,0 +1,6 @@
+name: olivero-sandbox-d9
+recipe: drupal8
+config:
+  webroot: web
+  xdebug: false
+  php: '7.3'
