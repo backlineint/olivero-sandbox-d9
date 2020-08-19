@@ -21,10 +21,11 @@
     "require": {
         "composer/installers": "^1.2",
         "drupal/core-composer-scaffold": "^9",
+        "drupal/core-dev": "^9.0",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/olivero": "dev-8.x-1.x-dev",
-        "drush/drush": "^10"
+        "drush/drush": "^10.3"
     },
     "require-dev": {
     },
@@ -35,6 +36,9 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+      "test": "phpunit"
     },
     "extra": {
         "drupal-scaffold": {
