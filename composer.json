@@ -38,7 +38,8 @@
         "sort-packages": true
     },
     "scripts": {
-      "test": "phpunit"
+      "test": "phpunit",
+      "test:olivero": "phpunit web/themes/contrib/olivero/tests/src/Functional/OliveroTest.php"
     },
     "extra": {
         "drupal-scaffold": {

@@ -38,3 +38,5 @@ https://olivero-sandbox-d9.lndo.site/
 `lando db-import your-FileName` - Imports a database extract.
 
 `lando poweroff` - This is a total shutdown. Helpful when you need to be away for an extended time.
+
+`lando composer test:olivero` - run Olivero test suite.

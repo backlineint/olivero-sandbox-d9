@@ -7,3 +7,4 @@ lando drush site:install --site-name="Olivero Sandbox" -y
 lando drush then olivero
 lando drush config-set system.theme default olivero -y
 lando drush upwd admin admin
+lando composer test:olivero
