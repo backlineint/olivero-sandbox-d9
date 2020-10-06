@@ -8,3 +8,4 @@ lando drush then olivero
 lando drush config-set system.theme default olivero -y
 lando drush upwd admin admin
 lando composer test:olivero
+# lint css and js

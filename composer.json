@@ -21,10 +21,9 @@
     "require": {
         "composer/installers": "^1.2",
         "drupal/core-composer-scaffold": "^9",
-        "drupal/core-dev": "^9.0",
+        "drupal/core-dev": "9.1.x-dev",
         "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
-        "drupal/olivero": "dev-8.x-1.x-dev",
+        "drupal/core-recommended": "9.1.x-dev",
         "drush/drush": "^10.3"
     },
     "require-dev": {
@@ -39,7 +38,8 @@
     },
     "scripts": {
       "test": "phpunit",
-      "test:olivero": "phpunit web/themes/contrib/olivero/tests/src/Functional/OliveroTest.php"
+      "test:olivero": "phpunit web/themes/contrib/olivero/tests/src/Functional/OliveroTest.php",
+      "test:olivero-core": "phpunit web/core/tests/Drupal/FunctionalTests/Theme/OliveroTest.php"
     },
     "extra": {
         "drupal-scaffold": {
